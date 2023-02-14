@@ -1,0 +1,17 @@
+D:\repos\NoteApp\NodeApp.DataAccess\bin\Debug\net6.0\NodeApp.DataAccess.deps.json
+D:\repos\NoteApp\NodeApp.DataAccess\bin\Debug\net6.0\NodeApp.DataAccess.runtimeconfig.json
+D:\repos\NoteApp\NodeApp.DataAccess\bin\Debug\net6.0\NodeApp.DataAccess.dll
+D:\repos\NoteApp\NodeApp.DataAccess\bin\Debug\net6.0\NodeApp.DataAccess.pdb
+D:\repos\NoteApp\NodeApp.DataAccess\bin\Debug\net6.0\NodeApp.Entity.dll
+D:\repos\NoteApp\NodeApp.DataAccess\bin\Debug\net6.0\NodeApp.Entity.pdb
+D:\repos\NoteApp\NodeApp.DataAccess\obj\Debug\net6.0\NodeApp.DataAccess.csproj.AssemblyReference.cache
+D:\repos\NoteApp\NodeApp.DataAccess\obj\Debug\net6.0\NodeApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\NoteApp\NodeApp.DataAccess\obj\Debug\net6.0\NodeApp.DataAccess.AssemblyInfoInputs.cache
+D:\repos\NoteApp\NodeApp.DataAccess\obj\Debug\net6.0\NodeApp.DataAccess.AssemblyInfo.cs
+D:\repos\NoteApp\NodeApp.DataAccess\obj\Debug\net6.0\NodeApp.DataAccess.csproj.CoreCompileInputs.cache
+D:\repos\NoteApp\NodeApp.DataAccess\obj\Debug\net6.0\NodeApp.DataAccess.csproj.CopyComplete
+D:\repos\NoteApp\NodeApp.DataAccess\obj\Debug\net6.0\NodeApp.DataAccess.dll
+D:\repos\NoteApp\NodeApp.DataAccess\obj\Debug\net6.0\refint\NodeApp.DataAccess.dll
+D:\repos\NoteApp\NodeApp.DataAccess\obj\Debug\net6.0\NodeApp.DataAccess.pdb
+D:\repos\NoteApp\NodeApp.DataAccess\obj\Debug\net6.0\NodeApp.DataAccess.genruntimeconfig.cache
+D:\repos\NoteApp\NodeApp.DataAccess\obj\Debug\net6.0\ref\NodeApp.DataAccess.dll

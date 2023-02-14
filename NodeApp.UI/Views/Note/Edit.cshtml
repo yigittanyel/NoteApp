@@ -1,0 +1,27 @@
+﻿@model NodeApp.Entity.Entities.Note
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<h2>Edit Note</h2>
+<hr />
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input class="form-control" asp-for="Title" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea class="form-control" asp-for="Description"></textarea>
+    </div>
+    <div class="form-group">
+        <label asp-for="Children">Note Id</label>
+        <input class="form-control" asp-for="Children" />
+    </div><br />
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

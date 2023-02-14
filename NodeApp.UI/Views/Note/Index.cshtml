@@ -1,0 +1,42 @@
+﻿@model IEnumerable<NodeApp.Entity.Entities.Note>
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<h2>Notes</h2>
+<hr />
+<a href="@Url.Action("Create","Note")" class="btn btn-primary">Create</a>
+<hr />
+<ul>
+    @foreach (var note in Model)
+    {
+        <li>
+            <div>
+                <span>@note.Title => @note.Description</span>
+                <div>
+                    <a asp-action="Edit" asp-route-id="@note.Id" style="text-decoration:none;">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@note.Id" style="text-decoration:none;">Delete</a>
+                </div>
+            </div>
+
+            @if (note.Children?.Any() ?? false)
+            {
+                <ul>
+                    @foreach (var childNote in note.Children)
+                    {
+                        <li>
+                            <div>
+                                <span>@childNote.Title => @childNote.Description</span>
+                                <div>
+                                    <a asp-action="Edit" asp-route-id="@childNote.Id" style="text-decoration:none;">Edit</a> |
+                                    <a asp-action="Delete" asp-route-id="@childNote.Id" style="text-decoration:none;">Delete</a>
+                                </div>
+                            </div>
+                        </li>
+                    }
+                </ul>
+            }
+
+        </li>
+
+    }
+</ul>
